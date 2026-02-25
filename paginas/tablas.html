@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento HTML5 -->
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento HTML5 -->
+<html lang="es">
+<head>
+    <!-- Codificación de caracteres para soportar acentos y caracteres especiales -->
+    <meta charset="UTF-8">
+
+    <!-- Título de la pestaña del navegador -->
+    <title>Tablas - Ingredientes</title>
+
+    <!-- Estilos CSS internos -->
+    <style>
+        /* ===== Estilo general de la página ===== */
+        body {
+            font-family: Arial, sans-serif; /* Fuente principal de todo el contenido */
+            line-height: 1.5;               /* Altura de línea para legibilidad */
+            margin: 20px;                   /* Margen alrededor de todo el contenido */
+        }
+
+        /* ===== Estilo de cada sección de receta ===== */
+        section {
+            margin-bottom: 50px; /* Espacio vertical entre secciones */
+        }
+
+        /* ===== Estilo de las tablas ===== */
+        table {
+            width: 100%;             /* La tabla ocupa todo el ancho disponible */
+            border-collapse: collapse; /* Quita el espacio entre los bordes de las celdas */
+            margin-bottom: 20px;     /* Espacio debajo de cada tabla */
+        }
+
+        /* ===== Bordes de la tabla y sus celdas ===== */
+        table, th, td {
+            border: 1px solid #000; /* Bordes negros para toda la tabla, encabezados y celdas */
+        }
+
+        /* ===== Espaciado y alineación dentro de celdas ===== */
+        th, td {
+            padding: 8px;       /* Espacio interno en cada celda */
+            text-align: left;   /* Alineación del texto a la izquierda */
+        }
+
+        /* ===== Estilo de los títulos de las recetas ===== */
+        h2 {
+            margin-bottom: 10px; /* Espacio debajo del título de la receta */
+        }
+
+        /* ===== Estilo del enlace de inicio ===== */
+        .inicio-link {
+            display: block;           /* Se muestra como bloque para separarse del contenido */
+            font-size: 1.3em;         /* Tamaño más grande para destacar */
+            font-weight: bold;        /* Texto en negrita */
+            margin-bottom: 30px;      /* Separación del contenido siguiente */
+            text-decoration: underline; /* Subrayado */
+            color: blue;              /* Color azul para el enlace */
+            cursor: pointer;          /* Cursor tipo puntero al pasar por encima */
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== Enlace para volver al inicio ===== -->
+<a href="../index.html" class="inicio-link">⬅ Volver a Inicio</a>
+<!-- Este enlace apunta a index.html y está arriba de todo para fácil navegación -->
+
+<!-- ======================= Sección 1: Ensalada César ======================= -->
+<section id="p1">
+    <!-- Título de la receta -->
+    <h2>Ensalada César</h2>
+    <!-- Párrafo descriptivo -->
+    <p>Ingredientes necesarios para preparar una deliciosa ensalada César:</p>
+
+    <!-- Tabla de ingredientes -->
+    <table>
+        <!-- Fila de encabezados -->
+        <tr><th>Ingrediente</th><th>Cantidad</th></tr>
+        <!-- Filas con datos de los ingredientes -->
+        <tr><td>Lechuga romana</td><td>1 unidad</td></tr>
+        <tr><td>Pollo a la plancha</td><td>200 g</td></tr>
+        <tr><td>Queso parmesano rallado</td><td>50 g</td></tr>
+        <tr><td>Croûtons</td><td>50 g</td></tr>
+        <tr><td>Aderezo César</td><td>50 ml</td></tr>
+    </table>
+</section>
+
+<!-- ======================= Sección 2: Spaghetti a la Boloñesa ======================= -->
+<section id="p2">
+    <!-- Título de la receta -->
+    <h2>Spaghetti a la Boloñesa</h2>
+    <!-- Párrafo descriptivo -->
+    <p>Ingredientes necesarios para preparar spaghetti a la boloñesa:</p>
+
+    <!-- Tabla de ingredientes -->
+    <table>
+        <tr><th>Ingrediente</th><th>Cantidad</th></tr>
+        <tr><td>Spaghetti</td><td>250 g</td></tr>
+        <tr><td>Carne molida de res</td><td>200 g</td></tr>
+        <tr><td>Cebolla picada</td><td>1 unidad</td></tr>
+        <tr><td>Ajo picado</td><td>2 dientes</td></tr>
+        <tr><td>Salsa de tomate</td><td>200 ml</td></tr>
+        <tr><td>Aceite de oliva</td><td>2 cucharadas</td></tr>
+        <tr><td>Sal y pimienta</td><td>Al gusto</td></tr>
+    </table>
+</section>
+
+<!-- ======================= Sección 3: Tarta de Manzana ======================= -->
+<section id="p3">
+    <!-- Título de la receta -->
+    <h2>Tarta de Manzana</h2>
+    <!-- Párrafo descriptivo -->
+    <p>Ingredientes necesarios para preparar una tarta de manzana casera:</p>
+
+    <!-- Tabla de ingredientes -->
+    <table>
+        <tr><th>Ingrediente</th><th>Cantidad</th></tr>
+        <tr><td>Manzanas</td><td>3 unidades</td></tr>
+        <tr><td>Harina de trigo</td><td>200 g</td></tr>
+        <tr><td>Mantequilla</td><td>100 g</td></tr>
+        <tr><td>Azúcar</td><td>150 g</td></tr>
+        <tr><td>Huevos</td><td>2 unidades</td></tr>
+        <tr><td>Canela en polvo</td><td>1 cucharadita</td></tr>
+        <tr><td>Levadura</td><td>1 cucharadita</td></tr>
+    </table>
+</section>
+
+</body>
+</html>

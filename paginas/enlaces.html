@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Definición de codificación de caracteres -->
+    <meta charset="UTF-8" />
+    
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Enlaces - Contenido</title>
+    
+    <!-- Estilos CSS internos -->
+    <style>
+        /* Estilo general del cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif; /* Fuente principal */
+            line-height: 1.5;               /* Altura de línea para legibilidad */
+            margin: 20px;                   /* Margen alrededor del contenido */
+        }
+
+        /* Enlace al inicio (arriba de todo) */
+        .inicio-link {
+            display: block;                 /* Se muestra como bloque para separar del contenido */
+            font-size: 1.3em;               /* Tamaño más grande para destacar */
+            font-weight: bold;              /* Negrita */
+            margin-bottom: 30px;            /* Separación del contenido siguiente */
+            text-decoration: underline;     /* Subrayado */
+            color: blue;                    /* Color azul */
+            cursor: pointer;                /* Cursor de puntero al pasar sobre el enlace */
+        }
+
+        /* Secciones de contenido */
+        section {
+            margin-bottom: 50px;            /* Separación entre secciones */
+        }
+
+        /* Enlaces de navegación interna dentro de cada sección */
+        .nav-links a {
+            margin-right: 10px;             /* Separación entre enlaces */
+            font-size: 0.9em;               /* Tamaño un poco más pequeño */
+            color: purple;                  /* Color púrpura */
+            text-decoration: underline;     /* Subrayado */
+            cursor: pointer;                /* Cursor de puntero */
+        }
+
+        /* Contenedor de los enlaces de navegación */
+        .nav-links {
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Enlace al inicio que permite volver a index.html -->
+<a href="../index.html" class="inicio-link">⬅ Volver a Inicio</a>
+
+<!-- Marcador de posición superior para los enlaces "Top" -->
+<a id="top"></a>
+
+<!-- ======================= Sección 1 ======================= -->
+<section id="p1">
+    <!-- Párrafo de contenido de ejemplo con ~200 palabras -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec neque vitae est vehicula pulvinar. Mauris ut ligula vel purus volutpat mollis. Sed gravida ligula sit amet justo dictum, nec dapibus nisi hendrerit. Curabitur fermentum justo sit amet lorem aliquet, id imperdiet purus porttitor. Proin ut fermentum nulla. Sed accumsan, ex sed lobortis venenatis, nisl orci dapibus turpis, vel vulputate nisi orci a eros. Integer ut justo nec libero pulvinar varius. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam efficitur, felis at sodales facilisis, elit libero elementum lectus, a tincidunt quam nibh eget justo. Cras sit amet mi a justo tempor porta. Fusce a imperdiet turpis. Donec id libero id magna congue fermentum. Nullam congue erat vitae elit fermentum, nec ultrices purus tincidunt. Quisque vehicula libero at tortor fringilla, id scelerisque erat scelerisque. Vivamus non ante eget sapien ullamcorper viverra. Curabitur in arcu vel purus cursus volutpat.
+    </p>
+
+    <!-- Contenedor de enlaces de navegación de la sección -->
+    <div class="nav-links" data-index="1">
+        <!-- Enlace que lleva al principio de la página -->
+        <a href="#top" class="top">Top</a>
+        <!-- Enlace a la sección anterior (gestión con JS) -->
+        <a href="#" class="previous">Previous</a>
+        <!-- Enlace a la sección siguiente (gestión con JS) -->
+        <a href="#" class="next">Next</a>
+        <!-- Enlace al final de la página -->
+        <a href="#p6" class="bottom">Bottom</a>
+    </div>
+</section>
+
+<!-- ======================= Sección 2 ======================= -->
+<section id="p2">
+    <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi tempor ex nec eros dignissim, in facilisis justo consequat. Aliquam erat volutpat. Curabitur euismod, sapien a laoreet laoreet, neque libero bibendum sem, ac feugiat mauris nibh sed nisl. Donec suscipit tellus nec ex cursus, in blandit justo tincidunt. Fusce convallis massa vitae felis scelerisque, ac volutpat nisl hendrerit. Aenean convallis, risus nec elementum tincidunt, odio justo hendrerit justo, ac hendrerit nisl lorem sed libero. Phasellus ut ligula at sem dictum feugiat. Etiam tristique purus sed velit tempor, non sodales metus cursus. Proin nec est a justo suscipit viverra. Cras at arcu in est commodo imperdiet. Sed eget ex sed lectus consectetur sollicitudin. Nulla facilisi. Integer in dolor sed ligula sollicitudin dictum. Curabitur in urna vel lorem imperdiet tincidunt. Sed blandit, sapien in pharetra sollicitudin, sapien felis hendrerit sem, ut ultrices justo lorem id libero.
+    </p>
+    <div class="nav-links" data-index="2">
+        <a href="#p1" class="top">Top</a>
+        <a href="#" class="previous">Previous</a>
+        <a href="#" class="next">Next</a>
+        <a href="#p6" class="bottom">Bottom</a>
+    </div>
+</section>
+
+<!-- ======================= Sección 3 ======================= -->
+<section id="p3">
+    <p>
+        Integer euismod velit nec leo fermentum, a tincidunt elit vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus et mi ut justo congue tempus. Fusce ac lorem sed libero blandit tempor. Suspendisse id sapien id sapien cursus consequat. Curabitur malesuada libero ac metus imperdiet, vitae viverra justo fermentum. Sed bibendum massa sed libero lacinia, sed elementum neque dignissim. Nulla facilisi. Praesent nec dolor ac felis laoreet porta. Donec tincidunt, arcu a bibendum sodales, elit libero blandit nulla, nec posuere odio justo nec libero. Proin lacinia massa nec augue efficitur, id tempor nisl ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam efficitur elit vitae purus ultricies, sed volutpat mauris viverra. Fusce imperdiet, libero et ultrices bibendum, lorem sapien ultricies ligula, in viverra justo magna id nunc. Suspendisse potenti. Ut porttitor nunc a sem congue, at fermentum purus placerat.
+    </p>
+    <div class="nav-links" data-index="3">
+        <a href="#p1" class="top">Top</a>
+        <a href="#" class="previous">Previous</a>
+        <a href="#" class="next">Next</a>
+        <a href="#p6" class="bottom">Bottom</a>
+    </div>
+</section>
+
+<!-- ======================= Sección 4 ======================= -->
+<section id="p4">
+    <p>
+        Sed non massa sed urna facilisis pretium. Integer nec risus nec nisi tincidunt finibus. Nam id urna vitae odio porta bibendum. Aliquam erat volutpat. Phasellus auctor ex et purus viverra, sed rhoncus felis fermentum. Quisque vehicula libero vitae metus commodo, at convallis magna posuere. Vivamus convallis nisi vitae magna tristique, a dignissim elit pulvinar. Suspendisse potenti. Ut finibus, ex vitae laoreet tincidunt, sapien lacus tempor ligula, a vulputate ligula justo ut sem. Nam et purus nec elit tincidunt sagittis. Vivamus nec purus vel ligula fermentum consequat. Proin congue justo a dolor sollicitudin, eget dapibus nulla dignissim. Fusce nec sapien at elit feugiat lacinia. Integer gravida, lectus vel dictum vestibulum, justo turpis fermentum nulla, nec vulputate neque purus nec ex. Vestibulum fermentum, nisl nec bibendum suscipit, libero arcu gravida justo, nec imperdiet ligula sapien ac magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut venenatis justo nec erat consectetur, vel varius elit tempor. Morbi porta ligula ut libero tincidunt, nec laoreet mauris posuere. Aenean facilisis justo non justo hendrerit, sed luctus libero facilisis.
+    </p>
+    <div class="nav-links" data-index="4">
+        <a href="#p1" class="top">Top</a>
+        <a href="#" class="previous">Previous</a>
+        <a href="#" class="next">Next</a>
+        <a href="#p6" class="bottom">Bottom</a>
+    </div>
+</section>
+
+<!-- ======================= Sección 5 ======================= -->
+<section id="p5">
+    <p>
+        Fusce sit amet purus at orci tempus cursus. Vivamus facilisis, libero a ultrices bibendum, justo justo posuere arcu, ut dapibus urna lorem ut justo. Nullam non libero at erat pharetra porttitor. Aliquam erat volutpat. Sed consectetur justo ac risus lacinia, eget vestibulum libero rhoncus. Proin nec neque nec metus imperdiet faucibus. Integer in felis sit amet orci venenatis convallis. Morbi auctor urna sed augue gravida, in ultrices ligula vulputate. Sed pretium, sapien nec hendrerit pretium, lectus ipsum sollicitudin odio, sed hendrerit nisl justo ac lectus. Nam vitae dolor a nunc malesuada varius. Nulla facilisi. Integer vehicula justo nec dolor efficitur, a tincidunt nulla fermentum. Curabitur id metus eu lectus fermentum facilisis. Aliquam erat volutpat. Suspendisse potenti. Etiam sed risus nec nisi varius ultrices.
+    </p>
+    <div class="nav-links" data-index="5">
+        <a href="#p1" class="top">Top</a>
+        <a href="#" class="previous">Previous</a>
+        <a href="#" class="next">Next</a>
+        <a href="#p6" class="bottom">Bottom</a>
+    </div>
+</section>
+
+<!-- ======================= Sección 6 ======================= -->
+<section id="p6">
+    <p>
+        Proin vitae lorem a nibh tincidunt dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ac justo a nisl fermentum suscipit. Fusce feugiat justo a nunc pharetra, nec porttitor est dignissim. Sed luctus libero et justo interdum, ac tincidunt ligula convallis. Nulla facilisi. Cras vitae libero eget ligula fermentum tempor. Suspendisse potenti. Vestibulum nec turpis id tortor facilisis varius. Etiam id turpis sed magna dapibus malesuada. Curabitur in metus ut lorem laoreet scelerisque. Integer ac sapien ut nulla feugiat cursus. Donec vitae urna nec justo sollicitudin tincidunt. Vivamus sed nunc nec ligula placerat venenatis. Integer nec arcu eget ligula feugiat pharetra. Sed vitae libero ac nulla efficitur vulputate. Praesent id justo vel ligula volutpat hendrerit. Quisque nec arcu id dolor consequat pretium. Ut a urna ut arcu fermentum fermentum. Suspendisse potenti. Sed nec lectus non libero tempor tincidunt. Aliquam erat volutpat. Nullam id sapien in lorem dictum commodo. Donec et justo id neque scelerisque fermentum. Curabitur sit amet nulla sit amet justo hendrerit gravida. Integer sed libero a justo faucibus eleifend.
+    </p>
+    <div class="nav-links" data-index="6">
+        <a href="#p1" class="top">Top</a>
+        <a href="#" class="previous">Previous</a>
+        <a href="#" class="next">Next</a>
+        <a href="#p6" class="bottom">Bottom</a>
+    </div>
+</section>
+
+<!-- ======================= Script de navegación ======================= -->
+<script>
+    // Total de secciones de la página
+    const totalSections = 6;
+
+    // Selecciona todos los contenedores de enlaces de navegación
+    document.querySelectorAll('.nav-links').forEach(nav => {
+        // Obtiene el índice de la sección actual desde data-index
+        const index = parseInt(nav.getAttribute('data-index'));
+
+        // Enlace "Previous": lleva a la sección anterior
+        nav.querySelector('.previous').addEventListener('click', e => {
+            e.preventDefault(); // Evita recargar la página
+            const prevIndex = index > 1 ? index - 1 : 1; // No bajar de 1
+            location.hash = '#p' + prevIndex;           // Hace scroll a la sección anterior
+        });
+
+        // Enlace "Next": lleva a la sección siguiente
+        nav.querySelector('.next').addEventListener('click', e => {
+            e.preventDefault(); // Evita recargar la página
+            const nextIndex = index < totalSections ? index + 1 : totalSections; // No superar total
+            location.hash = '#p' + nextIndex; // Hace scroll a la sección siguiente
+        });
+    });
+</script>
+
+</body>
+</html>

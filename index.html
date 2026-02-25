@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento HTML5 -->
+
+<html lang="es">
+<!-- Inicio del documento HTML y especificación del idioma como español -->
+
+<head>
+    <!-- Metadatos de la página -->
+
+    <meta charset="UTF-8" />
+    <!-- Codificación de caracteres UTF-8 para soportar acentos, eñes y caracteres especiales -->
+
+    <title>Portal - Inicio</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    <style>
+        /* ===== Estilos internos de la página ===== */
+
+        body {
+            font-family: Arial, sans-serif; /* Fuente principal de todo el contenido */
+            margin: 20px;                   /* Margen externo alrededor del contenido */
+        }
+
+        header img {
+            width: 100%;          /* La imagen ocupa todo el ancho del contenedor */
+            height: auto;         /* Mantiene la proporción original de la imagen */
+            display: block;       /* Hace que la imagen se comporte como bloque */
+            margin-bottom: 20px;  /* Espacio debajo de la imagen */
+        }
+
+        nav ul {
+            list-style: disc;     /* Lista con viñetas en forma de disco */
+            padding-left: 20px;   /* Espacio a la izquierda del texto de la lista */
+        }
+
+        nav ul li {
+            margin-bottom: 10px;  /* Separación vertical entre elementos de la lista */
+        }
+
+        nav ul li a {
+            text-decoration: underline; /* Subraya los enlaces */
+            color: blue;                /* Color azul para los enlaces */
+            font-size: 1.1em;           /* Tamaño de fuente ligeramente más grande */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contenido visible de la página -->
+
+    <header>
+        <!-- Encabezado principal de la página -->
+        <img src="imagenes/fondo.jpg" alt="Imagen de cabecera" />
+        <!-- Imagen que se muestra en el encabezado
+             src = ruta del archivo de imagen
+             alt = texto alternativo para accesibilidad y SEO -->
+    </header>
+
+    <nav>
+        <!-- Barra de navegación -->
+        <ul>
+            <!-- Lista de enlaces de navegación -->
+            <li><a href="index.html">Inicio</a></li>
+            <!-- Enlace a la página de inicio -->
+            <li><a href="paginas/enlaces.html">Enlaces</a></li>
+            <!-- Enlace a la página de enlaces -->
+            <li><a href="paginas/tablas.html">Tablas</a></li>
+            <!-- Enlace a la página de tablas -->
+            <li><a href="paginas/javascript.html">Javascript</a></li>
+            <!-- Enlace a la página de ejemplos de Javascript -->
+            <li><a href="paginas/layout.html">Diseño</a></li>
+            <!-- Enlace a la página de diseño/layout -->
+        </ul>
+    </nav>
+
+</body>
+</html>
